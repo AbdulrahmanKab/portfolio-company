@@ -1,0 +1,8 @@
+body,html{
+    overflow-x: hidden;
+}
+@media (max-width: 550px) {
+    .menu-link{
+        background-color: #181c32!important;
+    }
+}

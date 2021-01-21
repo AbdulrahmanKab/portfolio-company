@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto&display=swap');
+.come-work{
+    font-size: 68px;
+    color: #ffffff;
+    z-index: 3;
+    font-weight: 600;
+
+    font-family: 'Roboto', monospace;
+}
+.roles-location{
+    font-size: 33px;
+    color: #04bef3!important;
+    font-family:Roboto, sans-serif;
+    z-index: 3;
+}
+.we-are{
+    margin-top: 3em;
+}
+.we-are-title{
+    font-size:32px;
+    font-weight: 400;
+    font-family: Roboto, sans-serif;
+}
+.designers::before{
+    background-color: #0076FF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    opacity: 0.23;
+
+}
+.owl-slider {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+.owl-slider .owl-stage {
+    display: flex;
+}
+.owl-slider .slide img {
+    width: 100%;
+}
+.owl-slider .disabled {
+    display: none;
+}
+.owl-slide {
+    background-image: url('../images/scott-graham-5fNmWej4tAA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 100%;
+    height: 475px;
+}
+.owl-slide::before{
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+    background: #24202E!important;
+    content: '';
+    opacity: 0.75;
+}
+.owl-text {
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.owl-text span {
+    color: #000;
+    font-size: 44px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: -32px;
+}
+
+.button-opening{
+    width: 184px;
+    height: 40px;
+    z-index: 5;
+    background-color: #04bef3!important;
+    font-size: 18px!important;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+    color: #ffffff!important;
+    margin-top: 36px;
+}
+.join-our-container{
+    margin-top: 2.5em;
+}
+.join-our{
+
+    color: #24202E!important;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+.cover-background{
+    margin-top: 5em;
+    background: url('../images/55eeb5ec670da2ad074b46895a4d09a7.png') no-repeat;
+    background-size: 100% 411px;
+}
+.cover-background::before{
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+    background: #24202E!important;
+    content: '';
+    opacity: 0.70;
+
+
+}
+
+
+.make-our{
+    margin-top: 172px;
+    font-size: 36px;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    margin-bottom: 172px;
+}
+.and-few{
+    font-size: 20px;
+    font-weight: 400;
+}
+@media (max-width: 640px) {
+
+    .owl-slide {
+        height: 336px;
+        background-position: 0 100%;
+    }
+    .owl-text {
+        height: 336px;
+    }
+    .owl-text span {
+        color: #e4e4e4;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .content-wrap .title {
+        font-size: 24px;
+        line-height: 30px;
+        max-width: 485px;
+    }
+    .owl-text span {
+        margin-top: -36px;
+    }
+    .content-wrap .sub-title {
+        max-width: 550px;
+        margin-top: 47px;
+    }
+    .icon-wrap {
+        width: 88%;
+        margin-top: 57px;
+    }
+    .come-work{
+        font-size: 1.6em;
+    }
+    .roles-location{
+        font-size: 1.1em;
+    }
+    .button-opening{
+        width: 150px;
+        height: 50%;
+        z-index: 5;
+        background-color: #04bef3!important;
+        font-size: 1em!important;
+        font-weight: 600;
+        font-family: Roboto, sans-serif;
+        color: #ffffff!important;
+        margin-top: 36px;
+    }
+    .we-are-title{
+        font-size: 1.2em;
+    }
+    .join-our{
+        margin-top: 0em!important;
+    }
+    .cover-background{
+        background-size: 100% 100%;
+    }
+    .make-our{
+        font-size: 1.3em;
+    }
+    .and-few{
+        font-size: 0.7em;
+    }
+}
+.join-our::selection{
+    background-color: #0c5460;
+    color: white;
+}
